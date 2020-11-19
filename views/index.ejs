@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Authentications</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+        body {
+            text-align: center;
+            position: center;
+            min-height: 100vh;
+            background: hsl(358, 35%, 85%);
+        }
+    </style>
+</head>
+
+<body>
+    <h1><u>Sign up Form</u> </h1> 
+    <br>
+
+    <% if(typeof err != 'undefined') {%>
+       <p> <%= err %> </p>
+        <% } %>
+    <br> <br>
+    <form action="/" method="POST"> 
+
+        <label for="login">Username : </label>
+        <input type="text" name="username" 
+            placeholder="Username"> 
+            <br> <br>
+        <label for="password">Password : </label>
+        <input type="password" name="password" 
+            placeholder="Password"> 
+            <br> <br>
+        <button>Submit</button> 
+        <br>
+
+    </form> 
+
+    <p>Already Registered ? Login</p>
+    <li><a href="/login">Login</a></li> 
+
+</body>
+
+</html>

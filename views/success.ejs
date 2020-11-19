@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Authentications</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+        body {
+            text-align: center;
+            position: center;
+            min-height: 100vh;
+            background: hsl(358, 35%, 85%);
+        }
+    </style>
+</head>
+
+<body>
+    <h1><u>Enter a Valid URL</u></h1> 
+
+    <form action="/success" method="POST">
+        <% if (error_message != ''){ %>
+            <strong> <%= error_message %> </strong>
+            <% } %>
+            <br> <br>
+        <input type="text" name="url" placeholder="Write the URL...">
+        <br><br>
+        <button>Submit</button>
+    </form>
+
+    <br>
+    <li><a href="/logout">Logout</a></li> 
+</body>
+
+</html>

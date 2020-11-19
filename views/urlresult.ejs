@@ -1,0 +1,35 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Authentications</title>
+    <style>
+        #unique{
+            overflow-y: auto;
+            width: 90%;
+        }
+        @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+        body {
+            text-align: center;
+            position: center;
+            min-height: 100vh;
+            background: hsl(358, 35%, 85%);
+            width: 90%;
+        }
+    </style>
+</head>
+
+<body>
+    <h1> <u>Search Results</u></h1>
+    <textarea id="unique" rows="20" cols="100">
+        <% if(typeof flag != 'undefined') {%>
+            <%= data %>
+            <% } %>
+    </textarea>
+
+    <br><br>
+    <li><a href="/logout">Logout</a></li> 
+</body>
+
+</html>

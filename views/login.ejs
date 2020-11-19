@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Authentications</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+        body {
+            text-align: center;
+            position: center;
+            min-height: 100vh;
+            background: hsl(358, 35%, 85%);
+        }
+    </style>
+</head>
+
+<body>
+    <h1><u>Login </u></h1> 
+  
+    <form action="/login" method="POST"> 
+        <% if (success_message != ''){ %>
+            <strong> <%= success_message %> </strong>
+            <% } %>
+            <br> <br>
+            <% if( error != '') { %>
+                <strong><%= error %></strong>
+                <% } %>
+                <br> <br>
+        <label for="login">Username : </label>
+        <input type="text" name="username"
+            placeholder="Enter your username"> 
+        <br> <br>
+        <label for="password">Password : </label>
+        <input type="password" name="password" 
+            placeholder="Enter Password"> 
+        <br> <br>
+        <button>Login</button> 
+        
+        <p>Did not Register ? Register</p>
+        <li><a href="./">Register</a></li> 
+
+    </form> 
+</body>
