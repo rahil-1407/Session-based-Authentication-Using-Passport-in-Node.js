@@ -7,7 +7,7 @@
 <p> In this project, I have used Passport to implement  local authentication (that is, logging in with a username and password) with a MongoDB back end.
 </p>
 <br>
-<img src="https://github.com/rahil-1407/Session-based-Authentication-Using-Passport-in-Node.js/blob/main/SS/login-2987788.jpg height="100px" width="100px"></img>
+<img src="https://github.com/rahil-1407/Session-based-Authentication-Using-Passport-in-Node.js/blob/main/SS/login-2987788.jpg" height=600 width=500></img>
 
 #### View Live
 https://backend-assignment-saarthi-ai.herokuapp.com/
