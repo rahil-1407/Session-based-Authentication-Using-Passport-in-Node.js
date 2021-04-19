@@ -11,16 +11,16 @@
 https://backend-assignment-saarthi-ai.herokuapp.com/
 
 #### Explanations using Screenshots
-- First page is Register Page. Register yourself with a unique username.
+- First page is Register Page. Register yourself with a unique username.<br>
 <img src=""></img> <br>
 
-- If already registered, Login Yourself.
+- If already registered, Login Yourself.<br>
 <img src=""></img> <br>
 
-- After successful authentication, user will land to a success page where a text box is present.
+- After successful authentication, user will land to a success page where a text box is present.<br>
 <img src=""></img> <br>
 
-- Write a valid Url and press Enter. You can fetch the source code of the URL.
+- Write a valid Url and press Enter. You can fetch the source code of the URL.<br>
 <img src=""></img> <br>
 <img src=""></img> <br>
 
@@ -29,10 +29,10 @@ https://backend-assignment-saarthi-ai.herokuapp.com/
 - <b>mongoose : </b> ODM Libraray for MongoDB
 - <b>body-parser : </b>For parsing incoming requests from client
 - <b>bcrypt : </b>For hashing passwords
-- <b>express-session :</b>For managing sessions
-- <b>cookie-parser :</b>For parsing cookie headers
-- <b>connect-flash :</b>Allows us to send a message while redirecting to a specified webpage
-- <b>request-promise :</b>For web scraping
+- <b>express-session : </b>For managing sessions
+- <b>cookie-parser : </b>For parsing cookie headers
+- <b>connect-flash : </b>Allows us to send a message while redirecting to a specified webpage
+- <b>request-promise : </b>For web scraping
 
 ### Session-Based Authentication Vs JWT Authentication
 
